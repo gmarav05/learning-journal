@@ -9,7 +9,6 @@ Built with simple HTML5, CSS3 using media queries and grid layout.
 
 ## Video
 
-## Image
 
 ## Features
 
