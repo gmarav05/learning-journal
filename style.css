@@ -2,6 +2,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    background-color: #FAFAFA;
 }
 
 nav img {
@@ -22,6 +23,7 @@ nav {
     /* justify-content: center; */
     align-items: center;
     margin-top: 1em;
+    background-color: white;
 }
 
 ul li {
@@ -35,16 +37,11 @@ a {
     text-decoration: none;
     margin-left: 2em;
     color: #090909;
-    
 }
 
 .nav-links {
     margin-left: auto;
     margin-right: 3.5em;
-}
-
-main {
-    /* position: relative; */
 }
 
 main img {
@@ -72,15 +69,6 @@ main img {
     line-height: 1.6;
     margin-bottom: 1em;
 }
-/* 
-.grid-container {
-    margin: 1em auto;
-    width: 90vw;
-    gap: 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-} */
 
 .grid-container {
     display: grid;
@@ -146,4 +134,54 @@ footer {
     margin-top: 0;
     font-size: 0.8rem;
     font-weight: 500;
+}
+
+/* About me */
+
+.intro {
+    margin-top: 6em;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: 5em;
+}
+
+.intro-text {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 4em;
+    margin-bottom: 0;
+}
+
+.about-me-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.learning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2.5em;
+    margin-bottom: 0;
+    gap: 1em;
+}
+
+/* Blog page */
+
+.blog-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-text-block {
+    color: black;
 }
